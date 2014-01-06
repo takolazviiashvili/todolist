@@ -1,0 +1,68 @@
+body{
+	font-family: sans-serif "Lucida Grande";
+}
+
+#form{
+	width: 430px;
+}
+
+#form label{
+	float: left;
+	width: 200px;
+	text-align: left;
+	margin: 5px;
+}
+
+#form input{
+	height: 30px;
+	width: 200px;
+	margin: 5px;
+	border-radius: 10px;
+	outline: none;
+}
+
+#form button[type="submit"]{
+	margin-left: 5px;
+	margin-top: 10px;
+	padding: 10px;
+	border: none;
+	background-color: rgb(107, 226, 107);
+	cursor: pointer;
+	text-transform: uppercase;
+	width: auto;
+	font-weight: 900;
+	color: #fff;
+	border-radius: 2px;
+}
+
+.edit-list,.remove-list{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(fresh_icon_05.jpg);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.edit-list{
+	background-position: -230px -340px;
+}
+
+.remove-list{
+	background-position: -45px -95px;
+}
+
+.list{
+	border-bottom: 1px solid silver;
+}
+
+.task{
+	display: inline-block;
+}
+
+.date{
+	font-size: 11px;
+	color: silver;
+	margin-left: 10px;
+	margin-right: 10px;
+}
